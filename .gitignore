@@ -1,0 +1,17 @@
+# 1. Ignore everything
+*
+
+# 2. Un-ignore directories so git can traverse them.
+#    This is necessary so git can find the files to un-ignore below.
+!*/
+
+# 3. Un-ignore the allowed file extensions
+!*.cpp
+!*.h
+!*.txt
+!*.jpg
+!*.jpeg
+!*.png
+
+# 4. Un-ignore this file itself so it can be committed
+!/.gitignore
